@@ -1,0 +1,12 @@
+footer > section {
+    background-color: green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  
+  }
+  footer > section > p{
+    text-align: center;
+    font-size: 9.8pt;
+    color: white;
+  
+  }

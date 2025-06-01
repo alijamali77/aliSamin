@@ -1,0 +1,15 @@
+header{
+    background-color: lightgray;
+    box-shadow: 2px 2px 3px gray;
+    height: 70px;
+  }
+  header ul{
+    display: flex;
+    justify-content: space-around;
+    line-height: 70px;
+  }
+  
+  header ul a{
+    font-size: 9.8pt;
+    display: inline-block;
+  }
