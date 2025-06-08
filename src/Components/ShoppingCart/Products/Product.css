@@ -1,0 +1,35 @@
+section.ProductList > section{
+    display: flex;
+    flex-wrap: wrap;
+}
+section.ProductList > section > section{
+    width: 23%;
+    margin: 1%;
+    padding: 5px;
+    border: 2px 3px solid;
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px lightgray;
+}
+
+
+section.ProductList > section > section div > span:nth-child(2){
+    font-weight: bold;
+    font-size: 9.8pt;
+}
+section.ProductList > section > section button{
+    padding: 5px 20px;
+    text-align: center;
+    background-color: rgb(37, 97, 124);
+    color: white;
+    font-size: 11pt;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    margin-right: 0;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+section.ProductList > section > section button:hover{
+    background-color: black;
+    transform: scale(1.1);
+}
